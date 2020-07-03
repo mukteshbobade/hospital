@@ -4,6 +4,9 @@ body
 	padding: 0
 	
 }
+a{
+	color: red;
+}
 
 nav{
 	position: fixed;
@@ -14,6 +17,7 @@ nav{
 	padding: 10px 100px;
 	box-sizing: border-box;	
 	transition: .3s;
+	background-color: white;
 
 }
 nav.black{
@@ -99,3 +103,6 @@ nav ul li a.active{
 	line-height: 30px;
 }
 
+.text{
+	appearance: none;
+}
