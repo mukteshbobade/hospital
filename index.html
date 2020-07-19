@@ -1,45 +1,37 @@
 <html>
 <head>
-<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<link rel="stylesheet" type="text/css" href="style.CSS">
-<link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="bootstrap-social/bootstrap-social.css">
-   <link rel="stylesheet" href="font-awesome-master/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="css/style.CSS">
+        <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="bootstrap-social/bootstrap-social.css">
+        <link rel="stylesheet" href="font-awesome-master/css/font-awesome.min.css">
 
 
 </head>
-<body color="#black">
-<div class="navigation">
-<nav>
-	
-<div class="logo"> WE CARES HOSPITAL</div> 
-<ul>
-	<li><a class="active" href="index.html"><span class="fa fa-home"></span> HOME</a></li>
-
-<li><a href="#second">
-APPOINTMENT
-</a>
-</li>
-
-<li><a href="EMP.html">GALLERY
-</a>
-</li>
-
-<li><a href="test.html">CONTACT US</a></li>
-
-
-
-</ul>
-
-
-
-</nav>
-</div>
+<body>
+  <div>
+<nav class="navbar navbar-dark navbar-expand-md bg-primary fixed-top">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+           <a class="navbar-brand" href="#">We Care Hopital</a>
+              <div class="collapse navbar-collapse" id="Navbar">
+         
+               <ul class="navbar-nav mr-auto"> 
+                    <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span>Appointment</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span>Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span>Contact</a></li>  
+                 </ul>
+                </div>           
+        </div>
+        
+ </nav>        
+ </div>
 
 <div name="first">
-  <img class="images" src="Images/image1.jpg">
-  <img class="images" src="Images/image2.jpg">
-  <img class="images" src="Images/image3.jpg">
+  <img class="images col-12" src="Images/image2.jpg">
   
 <button class="buttons" onclick="changeBack1()" id="b1"><</button>
 <button class="buttons" onclick="changeBack1()" id="b2">></button>
@@ -81,7 +73,35 @@ APPOINTMENT
 
 </body>
 <footer>
+ <div class="container">
+            <div class="row">             
+                <div class="col-5 offset-1 col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled ">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-2">
+                  <h5>Our Address</h5>
+                  <address>
+                    Vidyanagari, VP College, Vidya Nagari, Baramati, 
+                    Maharashtra 413133
+                  <span class="fa fa-phone fa-lg"> 987654321</span><br>
+                  <span class="fa fa-envelope fa-lg"><a href="mailto:Sample_Hospital@gmail.com">Sample_Hospital@gmail.com</a></span><br>  
+                  </address>
 
+                </div>
+            </div>
+
+            <div class="justify-content-center">
+              <div class="offset-5">
+              <p> © Copyright 2018 Muktesh T.Bobade</p>
+            </div>
+            </div>
+  </div>            
  <script type="text/javascript" src="myjs.js"></script>
 </footer>
 </html>
